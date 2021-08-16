@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 export default function AllShowsComp(props) {
   const [shows, setShows] = useState([]);
   const [showsChanged, setShowsChanged] = useState(true);
+  const [showFilter, setShowFilter] = useState("");
 
   useEffect(async () => {
     let resp;
-    console.log(props.match.params.id);
     if (props.match.params.id) {
       resp = await axios.get(
         "http://localhost:8000/api/shows/" + props.match.params.id
@@ -16,20 +16,42 @@ export default function AllShowsComp(props) {
     } else {
       resp = await axios.get("http://localhost:8000/api/shows/");
     }
+    sessionStorage.setItem("reload", "false");
     setShows(resp.data);
-  }, [showsChanged]);
+  }, [showsChanged, props.match.params.id, sessionStorage["reload"]]);
 
+  const filterShows = () => {
+    console.log(showFilter);
+    if (showFilter.length > 0) {
+      setShows(
+        shows.filter((sh) =>
+          sh.name.toLowerCase().includes(showFilter.toLowerCase())
+        )
+      );
+      setShowFilter("");
+    }
+  };
   const deleteShow = async (id) => {
     await axios.delete("http://localhost:8000/api/shows/" + id);
 
     if (props.match.params.id) {
       props.history.push("/showsMain");
     }
-      setShowsChanged(!showsChanged);
- 
+    setShowsChanged(!showsChanged);
   };
   return (
     <div>
+      <label htmlFor="find">Find Show : </label>
+      <input
+        type="text"
+        name="find"
+        value={showFilter}
+        onChange={(e) => setShowFilter(e.target.value)}
+      />
+      <input type="button" value="Find" onClick={filterShows} />
+      {/* <Link to={`/editShow/${show._id}`}>
+          <input type="button" value="Find" />
+        </Link> */}
       {shows.map((show, idx) => {
         return (
           <div
