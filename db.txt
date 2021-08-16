@@ -1,0 +1,449 @@
+
+---------------------------------------------------------------------------------
+***members***
+
+---------------------------------------------------------------------------------
+/* 1 */
+{
+    "_id" : ObjectId("6107c7d75cbef67559132619"),
+    "name" : "Idaline Amsberger",
+    "email" : "iamsberger0@behance.net",
+    "city" : "Daweishan",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b7a", 
+        "6107cfbb5cbef67559132b7d", 
+        "6107cfbb5cbef67559132b80"
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6107c7d75cbef6755913261c"),
+    "name" : "Pollyanna Galgey",
+    "email" : "pgalgey1@bbc.co.uk",
+    "city" : "Nangkasari",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b83", 
+        "6107cfbb5cbef67559132b86"
+    ]
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6107c7d75cbef6755913261f"),
+    "name" : "Seumas Syms",
+    "email" : "ssyms2@jugem.jp",
+    "city" : "Marston",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b89", 
+        "6107cfbb5cbef67559132b8c"
+    ]
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6107c7d75cbef67559132622"),
+    "name" : "Karlee Clemonts",
+    "email" : "kclemonts3@hhs.gov",
+    "city" : "Rybarzowice",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b8f", 
+        "6107cfbb5cbef67559132b92"
+    ]
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6107c7d75cbef67559132625"),
+    "name" : "Marta Graffin",
+    "email" : "mgraffin4@telegraph.co.uk",
+    "city" : "Houxixi",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b95"
+    ]
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6107c7d75cbef67559132628"),
+    "name" : "Dru Chooter",
+    "email" : "dchooter5@cloudflare.com",
+    "city" : "Cô Tô",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b98"
+    ]
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6107c7d75cbef6755913262b"),
+    "name" : "Hobey De Coursey",
+    "email" : "hde6@apache.org",
+    "city" : "Momanalu",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b9b"
+    ]
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6107c7d75cbef6755913262e"),
+    "name" : "Ashley Fryatt",
+    "email" : "afryatt7@trellian.com",
+    "city" : "Querocotillo",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b9e"
+    ]
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6107c7d75cbef67559132631"),
+    "name" : "Merola Wloch",
+    "email" : "mwloch8@wired.com",
+    "city" : "Aş Şanamayn",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132ba1", 
+        "6107cfbb5cbef67559132ba4"
+    ]
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6107c7d75cbef67559132634"),
+    "name" : "Ashlan Petrescu",
+    "email" : "apetrescu9@bing.com",
+    "city" : "Anserma"
+}
+
+---------------------------------------------------------------------------------
+***shows***
+---------------------------------------------------------------------------------
+/* 1 */
+{
+    "_id" : ObjectId("6107c55c5cbef675591324d8"),
+    "name" : "Under the Dome",
+    "premiered" : "2013-06-24",
+    "genres" : [ 
+        "Drama", 
+        "Science-Fiction", 
+        "Thriller"
+    ],
+    "imageUrl" : "https://static.tvmaze.com/uploads/images/medium_portrait/81/202627.jpg",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b7a"
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6107c6df5cbef67559132583"),
+    "name" : "Person of Interest",
+    "premiered" : "2011-09-22",
+    "genres" : [ 
+        "Action", 
+        "Crime", 
+        "Science-Fiction"
+    ],
+    "imageUrl" : "https://static.tvmaze.com/uploads/images/medium_portrait/163/407679.jpg",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b7d", 
+        "6107cfbb5cbef67559132b8c", 
+        "6107cfbb5cbef67559132ba1"
+    ]
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6107c6df5cbef67559132586"),
+    "name" : "Bitten",
+    "premiered" : "2014-01-11",
+    "genres" : [ 
+        "Drama", 
+        "Horror", 
+        "Romance"
+    ],
+    "imageUrl" : "https://static.tvmaze.com/uploads/images/medium_portrait/0/15.jpg",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b80", 
+        "6107cfbb5cbef67559132b95"
+    ]
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6107c6df5cbef67559132589"),
+    "name" : "Arrow",
+    "premiered" : "2012-10-10",
+    "genres" : [ 
+        "Drama", 
+        "Action", 
+        "Science-Fiction"
+    ],
+    "imageUrl" : "https://static.tvmaze.com/uploads/images/medium_portrait/213/534017.jpg",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b8f"
+    ]
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6107c6df5cbef6755913258c"),
+    "name" : "True Detective",
+    "premiered" : "2014-01-12",
+    "genres" : [ 
+        "Drama", 
+        "Crime", 
+        "Thriller"
+    ],
+    "imageUrl" : "https://static.tvmaze.com/uploads/images/medium_portrait/178/445621.jpg",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b92", 
+        "6107cfbb5cbef67559132b98", 
+        "6107cfbb5cbef67559132b9b"
+    ]
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6107c6df5cbef6755913258f"),
+    "name" : "Homeland",
+    "premiered" : "2011-10-02",
+    "genres" : [ 
+        "Drama", 
+        "Thriller", 
+        "Espionage"
+    ],
+    "imageUrl" : "https://static.tvmaze.com/uploads/images/medium_portrait/230/575652.jpg",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b86", 
+        "6107cfbb5cbef67559132b89", 
+        "6107cfbb5cbef67559132b9e"
+    ]
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6107c6df5cbef67559132592"),
+    "name" : "Constantine",
+    "premiered" : "2014-10-24",
+    "genres" : [ 
+        "Drama", 
+        "Action", 
+        "Horror"
+    ],
+    "imageUrl" : "https://static.tvmaze.com/uploads/images/medium_portrait/0/154.jpg",
+    "subscriptions" : [ 
+        "6107cfbb5cbef67559132b83", 
+        "6107cfbb5cbef67559132ba4"
+    ]
+}
+
+----------------------------------------------------------------------------------------------------
+***subscriptions***
+
+----------------------------------------------------------------------------------------------------
+
+/* 1 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132b7a"),
+    "show_id" : "6107c55c5cbef675591324d8",
+    "member_id" : "6107c7d75cbef67559132619",
+    "date" : "2020-05-21"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132b7d"),
+    "show_id" : "6107c6df5cbef67559132583",
+    "member_id" : "6107c7d75cbef67559132619",
+    "date" : "2019-01-11"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132b80"),
+    "show_id" : "6107c6df5cbef67559132586",
+    "member_id" : "6107c7d75cbef67559132619",
+    "date" : "2019-11-11"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132b83"),
+    "show_id" : "6107c6df5cbef67559132592",
+    "member_id" : "6107c7d75cbef6755913261c",
+    "date" : "2019-06-18"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132b86"),
+    "show_id" : "6107c6df5cbef6755913258f",
+    "member_id" : "6107c7d75cbef6755913261c",
+    "date" : "2019-02-12"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132b89"),
+    "show_id" : "6107c6df5cbef6755913258f",
+    "member_id" : "6107c7d75cbef6755913261f",
+    "date" : "2020-02-22"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132b8c"),
+    "show_id" : "6107c6df5cbef67559132583",
+    "member_id" : "6107c7d75cbef6755913261f",
+    "date" : "2021-03-25"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132b8f"),
+    "show_id" : "6107c6df5cbef67559132589",
+    "member_id" : "6107c7d75cbef67559132622",
+    "date" : "2019-12-12"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132b92"),
+    "show_id" : "6107c6df5cbef6755913258c",
+    "member_id" : "6107c7d75cbef67559132622",
+    "date" : "2021-05-30"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132b95"),
+    "show_id" : "6107c6df5cbef67559132586",
+    "member_id" : "6107c7d75cbef67559132625",
+    "date" : "2019-04-15"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132b98"),
+    "show_id" : "6107c6df5cbef6755913258c",
+    "member_id" : "6107c7d75cbef67559132628",
+    "date" : "2019-12-16"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132b9b"),
+    "show_id" : "6107c6df5cbef6755913258c",
+    "member_id" : "6107c7d75cbef6755913262b",
+    "date" : "2018-12-16"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132b9e"),
+    "show_id" : "6107c6df5cbef6755913258f",
+    "member_id" : "6107c7d75cbef6755913262e",
+    "date" : "2019-12-30"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132ba1"),
+    "show_id" : "6107c6df5cbef67559132583",
+    "member_id" : "6107c7d75cbef67559132631",
+    "date" : "2019-10-16"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6107cfbb5cbef67559132ba4"),
+    "show_id" : "6107c6df5cbef67559132592",
+    "member_id" : "6107c7d75cbef67559132631",
+    "date" : "2019-10-16"
+}
+
+----------------------------------------------------------------------------------------------------------
+***Users***
+
+----------------------------------------------------------------------------------------------------------
+/* 1 */
+{
+    "_id" : ObjectId("6107c3ce5cbef67559132417"),
+    "fullName" : "Marissa O'Downe",
+    "userName" : "modowne0",
+    "password" : "KOEtdy1PFD9u"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6107c3ce5cbef6755913241a"),
+    "fullName" : "Mercedes Wroath",
+    "userName" : "mwroath1",
+    "password" : "k1wDsUMSWt"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6107c3ce5cbef6755913241d"),
+    "fullName" : "Rollie Cometson",
+    "userName" : "rcometson2",
+    "password" : "q6UWqRpa"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6107c3ce5cbef67559132420"),
+    "fullName" : "Adolphus Wiltsher",
+    "userName" : "awiltsher3",
+    "password" : "cTrr11"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6107c3ce5cbef67559132423"),
+    "fullName" : "Westley Posselt",
+    "userName" : "wposselt4",
+    "password" : "rruPayoh"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6107c3ce5cbef67559132426"),
+    "fullName" : "Pepito Storry",
+    "userName" : "pstorry5",
+    "password" : "lphLuP"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6107c3ce5cbef67559132429"),
+    "fullName" : "Berkly Gian",
+    "userName" : "bgian6",
+    "password" : "ScOuzlA"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6107c3ce5cbef6755913242c"),
+    "fullName" : "Karmen Marklew",
+    "userName" : "kmarklew7",
+    "password" : "WjhmD1TSti"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6107c3ce5cbef6755913242f"),
+    "fullName" : "Hazlett Barabich",
+    "userName" : "hbarabich8",
+    "password" : "TW8J5pdg0F"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6107c3ce5cbef67559132432"),
+    "fullName" : "Dewey Smitton",
+    "userName" : "dsmitton9",
+    "password" : "1INsvF90F6I3"
+}
