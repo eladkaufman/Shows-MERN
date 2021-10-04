@@ -81,7 +81,7 @@ export default function Main(props) {
   );
 
   if (!sessionStorage.getItem("fullName")) {
-    return <LoginComp setToken={setToken} />; //TODO link to shows
+    return <LoginComp setToken={setToken} />;
   }
 
   return (
